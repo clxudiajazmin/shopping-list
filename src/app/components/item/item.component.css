@@ -1,0 +1,49 @@
+.row{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.completed{
+    background-color: red;
+    color: white;
+}
+
+.completed .total{
+    color: white;
+}
+
+div{
+    padding: 5px 0;
+}
+
+.title{
+    display: flex;
+    width: 50%;
+    padding: 2px 5px;
+}
+
+.price{
+    width: 15%;
+    padding: 0 5px;
+}
+
+.quantity{
+    width: 15%;
+    padding: 0 5px;
+}
+
+.total{
+    width: 15%;
+    font-weight: bolder;
+    color: green;
+    padding: 0 5px;
+}
+
+.actions{
+    width: 10%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+
